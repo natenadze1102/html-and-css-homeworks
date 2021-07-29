@@ -1,60 +1,58 @@
 div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 input[type='submit'], input[type='checkbox'] {
-    margin:5px 0;
-    margin-left: 160px!important;
+  margin:5px 0;
+  margin-left: 160px!important;
 }
 
 .larger {
-    margin: 25px 5px!important;
+  margin: 25px 5px!important;
 }
 
 input[type="submit"] {
-    padding: 7px 13px;
-    background-color: #1b93fb;
-    color:#fff;
-    border-radius: 3px;
-    border: none;
-    cursor: pointer;
+  padding: 7px 13px;
+  background-color: #1b93fb;
+  color:#fff;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
 }
 
 input[type='checkbox']{
-    transform: scale(1.5);
-    opacity: .4;
+  transform: scale(1.5);
+  opacity: .4;
 }
 
-
-input:not([type='submit']){
-    padding: 5px 100px;
-    margin:5px;
-    
+input:not([type="submit"]):not([type="checkbox"]){
+  width: 360px;
+  height: 23px;
 }
 
 label:not(#submit) {
-    width: 150px;
-    display: inline-block;
-    padding: 20px 0;
-    text-align: right;
+  width: 150px;
+  display: inline-block;
+  padding: 20px 0;
+  text-align: right;
 }
 
 select {
-    width: 373px;
-    padding: 5px;
-    margin:5px;
-    border-color: rgba(177, 131, 120, 0.515);
-    background:#fff;
-    opacity: .5;
+  width: 373px;
+  padding: 5px;
+  margin:5px;
+  border-color: rgba(177, 131, 120, 0.515);
+  background:#fff;
+  opacity: .5;
 }
 
 label:before {
-    content:" *";
-    color: red;
+  content:" *";
+  color: red;
 }
