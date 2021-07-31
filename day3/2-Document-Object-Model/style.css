@@ -72,7 +72,8 @@ article > p:first-of-type {
 }
 
 article div:first-of-type img {
-    transform: translateX(-1.5rem);
+    width: 15rem;
+    transform: translateX(-.5rem);
 }
 
 article ul img {
