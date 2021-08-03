@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container > *   {
+    border: 5px solid; 
+}
+
+#first {
+    height: 21rem;
+    width: 25rem;
+    background-color: red;
+    float: left;
+}
+
+#second {
+    height: 21rem;
+    width: 29rem;
+    background-color: #FFFAEA;
+    float: left;
+}
+
+#third {
+    height: 12rem;
+    width: 25rem;
+    background-color: #FFFAEA;
+    clear: left;
+    float: left;
+}
+
+#fourth {
+    height: 12rem;
+    width: 29rem;
+    background-color: #FFFAEA;
+    float: left;
+}
+
+#fifth {
+    height: 19rem;
+    width: 6rem;
+    background-color: #59fc43;
+    clear: left;
+    float: left;
+}
+
+#sixth {
+    height: 19rem;
+    width: 19rem;
+    background-color: #FFFAEA;
+    float: left;
+}
+
+#seventh {
+    height: 16.4rem;
+    width: 16.2rem;
+    background-color: #26129b;
+    float:left;
+}
+
+#eights {
+    height: 2rem;
+    width: 16.3rem;
+    background-color: #FFFAEA;
+    position: absolute;
+    bottom:0;
+}
+
+#nines {
+    height: 19rem;
+    width: 12.2rem;
+    background-color: #FFFAEA;
+    float: left;
+   
+}
+
+.group {
+    position: relative;
+    height: 19rem;
+    float: left;
+   
+}
+
+.group > :first-child{
+   border-bottom: inherit;
+}
