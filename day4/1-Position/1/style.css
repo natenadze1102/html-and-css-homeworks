@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    line-height: 4rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+section {
+    border: 2px solid #9e9c9c;
+    padding: 2rem 3rem;
+    height: 20rem;
+    width: 73rem;
+    margin: 4rem 40%;
+}
+
+div {
+    padding: 0 7rem;
+    position: relative;
+}
+
+p {
+    font-size: 2.7rem;
+    color: #797373;
+    font-weight: bold;
+  
+}
+
+span {
+    position: absolute;
+    top: 0;
+    right: 0;;
+    font-size: 5rem;
+    cursor: pointer;
+}

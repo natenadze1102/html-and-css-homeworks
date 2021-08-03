@@ -92,5 +92,5 @@ article ul img {
 }
 
 #last * {
-    display: inline-flex;
+    display: inline-block;
 }
