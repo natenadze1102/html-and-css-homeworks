@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #808080;
+}
+
+.container {
+    width: 100%;
+}
+
+
+.container > * {
+    background-color: #E1E1E1;
+    margin: 1rem;
+    position: relative;
+    float: left;
+}
+
+.container > div:not(.small) {
+    height: 22rem;
+}
+
+.small {
+    height: 10rem;
+    width: 10rem;
+}
+
+.normal {
+    width: 22rem;
+}
+
+.med-wide {
+    width: 46rem;
+}
+
+.wide {
+    width: 70rem;
+}
+
+
+#five {
+    clear: both;
+   
+}
+
+
+#thirteen {
+    clear: both;
+   
+}
+
+
+#fifteen {
+    clear: both;
+   
+}
+
+#seventeen {
+    clear: both;
+}
