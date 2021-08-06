@@ -19,11 +19,6 @@ p {
     color: #808080;
 }
 
-.container {
-    width: 100%;
-}
-
-
 .container > * {
     background-color: #E1E1E1;
     margin: 1rem;
@@ -52,24 +47,7 @@ p {
     width: 70rem;
 }
 
-
-#five {
-    clear: both;
-   
-}
-
-
-#thirteen {
-    clear: both;
-   
-}
-
-
-#fifteen {
-    clear: both;
-   
-}
-
-#seventeen {
+#five,#thirteen,#fifteen,#seventeen {
     clear: both;
 }
+

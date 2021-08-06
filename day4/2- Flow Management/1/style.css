@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-
-
-.container > *   {
+.container > * {
     border: 5px solid; 
 }
 
@@ -84,6 +82,6 @@
    
 }
 
-.group > :first-child{
+.group > :first-child {
    border-bottom: inherit;
 }
