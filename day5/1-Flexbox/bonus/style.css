@@ -243,10 +243,7 @@ html {
     border: none!important
 }
 
-.flex-row > * {
+.flex-row > *,.flex-column > * {
     border: 1px solid black;
 }
 
-.flex-column > * {
-    border: 1px solid black;
-}
