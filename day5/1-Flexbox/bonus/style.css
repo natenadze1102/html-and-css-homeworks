@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 5px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    border: 3px solid;
+    margin: 3rem;
+    padding: 1rem;
+    max-width: 38%;  
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.row-1 {
+    margin-bottom: 1rem;
+}
+.grouped {
+    border: none!important;
+}
+
+.row > *:not(.grouped), .grouped > * {
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+
+.grouped {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.item-1 {
+    width: 10rem;
+    height: 31rem;
+}
+
+.item-2 {
+    width: 10rem;
+    height: 10rem;
+}
+
+.item-3 {
+    width: 10rem;
+    height: 10rem;
+}
+
+.item-4 {
+    width: 10rem;
+    height: 20rem;
+}
+
+.item-5 {
+    width: 10rem;
+    height: 10rem;
+}
+
+.item-6 {
+    width: 10rem;
+    height: 10rem;
+}
+
+.item-7 {
+    width: 10rem;
+    height: 31rem;
+}
+
+.item-8 {
+    width: 21rem;
+    height: 10rem;
+}
+
+.item-9 {
+    width: 21rem;
+    height: 31rem;
+}
+
+.item-10 {
+    width: 10rem;
+    height: 20rem;
+}
+
+.item-11 {
+    width: 10rem;
+    height: 10rem;
+}
+
+.item-12 {
+    width: 10rem;
+    height: 31rem;
+}
+
+.item-13 {
+    width: 21rem;
+    height: 10rem;
+}
+
+.item-14 {
+    width: 10rem;
+    height: 42rem;
+}
+
+.item-15 {
+    width: 10rem;
+    height: 42rem;
+}
+
+.alone {
+    width: 10rem;
+    height: 10rem;
+    margin-top: 10rem;
+}
+
+.alone:last-child {
+    margin-top: 9rem;
+}
+
+.item-16 {
+    width: 32rem;
+    height: 20rem;
+}
+
+.item-17 {
+    width: 32rem;
+    height: 10rem;
+}
+
+.item-18 {
+    width: 32rem;
+    height: 10rem;
+}
+
+.item-19 {
+    width: 10rem;
+    height: 30rem;
+}
+
+.item-20 {
+    width: 10rem;
+    height: 10rem;
+}
+
+.item-21 {
+    width: 10rem;
+    height: 19rem;
+}
+
+.item-22 {
+    width: 10rem;
+    height: 30rem;
+}
+
+.item-23 {
+    width: 10rem;
+    height: 42rem;
+}
+
+.item-24 {
+    width: 10rem;
+    height: 10rem;
+}
+
+.item-25 {
+    width: 10rem;
+    height: 31rem;
+}
+
+.item-26 {
+    width: 21rem;
+    height: 30rem;
+}
+
+.item-27 {
+    width: 32rem;
+    height: 20rem;
+}
+
+.item-28 {
+    width: 10rem;
+    height: 20rem;
+}
+
+.item-29 {
+    width: 21rem;
+    height: 10rem;
+}
+
+.item-30 {
+    width: 10rem;
+    height: 10rem;
+}
+
+.item-31 {
+    width: 10rem;
+    height: 10rem;
+}
+
+.item-32 {
+    width: 10rem;
+    height: 30rem;
+}
+
+.item-33 {
+    width: 32rem;
+    height: 10rem;
+}
+
+.item-34 {
+    width: 32rem;
+    height: 19rem;
+}
+
+.item-35 {
+    width: 43rem;
+    height: 10rem;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: none!important
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    border: none!important
+}
+
+.flex-row > * {
+    border: 1px solid black;
+}
+
+.flex-column > * {
+    border: 1px solid black;
+}
