@@ -24,7 +24,6 @@ body {
 .flex-row ul:nth-of-type(2) li::before {
     background: none;
     border: 1px solid #34495E;
-    /* transform: translateY(.4rem); */
 }
 
 .flex-row ul li::before {
@@ -134,18 +133,16 @@ footer section:last-child{
 
 footer section:last-child .flex-row{
     justify-content: unset;
+    padding: 0;
 }
 
 footer section:last-child .flex-column{
     justify-content: center;
 }
 
-
-
 footer section:last-child p:last-of-type{
     font-style: italic;
 }
- 
 
 footer section ul {
     align-items: center;
