@@ -36,6 +36,7 @@ body {
 
 .flex-row ul:nth-of-type(2) li::before {
     background: none;
+
 }
 
 .flex-row ul li::before {
@@ -125,6 +126,7 @@ code {
     padding: 2.45rem 0 4rem 0;
     gap: 6rem;
     position: relative;
+ 
     bottom: .5rem;
     left: .2rem;
 }
