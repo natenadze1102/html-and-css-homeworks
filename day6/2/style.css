@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem;
+    grid-template-rows: 22rem 10rem 22rem 22rem 22rem;
+    gap: 2rem;
+    margin-top: 2.3rem;
+}
+
+.grid-container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(209, 208, 206);
+}
+
+.grid-container > div:nth-child(1) {
+    grid-column: 1 / span 2;
+}
+
+.grid-container > div:nth-child(2) {
+    grid-column: 3 / span 2;
+}
+
+.grid-container > div:nth-child(3) {
+    grid-column: 5 / span 2;
+}
+
+.grid-container > div:nth-child(4) {
+    grid-column: 7 / span 2;
+}
+
+.grid-container > div:nth-child(13) {
+    grid-column: 1 / span 6;
+}
+
+.grid-container > div:nth-child(14) {
+    grid-column: 7 / span 2;
+}
+
+.grid-container > div:nth-child(15) {
+    grid-column: 1 / span 2;
+}
+
+.grid-container > div:nth-child(16) {
+    grid-column: 3 / span 6;
+}
+
+.grid-container > div:nth-child(17) {
+    grid-column: 1 / span 4;
+}
+
+.grid-container > div:nth-child(18) {
+    grid-column: 5 / span 4;
+}
+
+.grid-container div p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(133, 134, 134);
+    padding: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+  
+}
