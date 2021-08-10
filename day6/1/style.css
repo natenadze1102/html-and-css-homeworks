@@ -23,45 +23,45 @@ html {
     font-size: 5rem;
 }
 
-.item-1 {
+#item-1 {
     grid-column: 1 / span 2;
     background-color: red;
 }
 
-.item-2 {
+#item-2 {
     grid-column: 3 / span 2;
     background-color: rgba(240, 226, 207, 0.767);
 }
 
-.item-3 {
+#item-3 {
     grid-area: 2 / 1 / 2 / span 2;
     background-color: rgba(240, 226, 207, 0.767);
 }
 
-.item-4 {
+#item-4 {
     grid-area: 2 / 3 / 2 / span 2;
     background-color: rgba(240, 226, 207, 0.767);
 }
 
-.item-5 {
+#item-5 {
   grid-area: 3 / 2 / span 2 / 1;
   background-color: yellow;
 }
 
-.item-6 {
+#item-6 {
     grid-area: 3 / 2 / span 2 / 2;
     background-color: rgba(240, 226, 207, 0.767);
 }
 
-.item-7 {
+#item-7 {
     background-color: rgb(27, 6, 121);
 }
 
-.item-8 {
+#item-8 {
     background-color: rgba(240, 226, 207, 0.767);
 }
 
-.item-9 {
+#item-9 {
     grid-area: 3 / 4 / span 2;
     background-color: rgba(240, 226, 207, 0.767);
 }
