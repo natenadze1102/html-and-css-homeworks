@@ -10,8 +10,8 @@ html {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 10rem 10rem 10rem 10rem 10rem 10rem 10rem 10rem;
-    grid-template-rows: 22rem 10rem 22rem 22rem 22rem;
+    grid-template-columns: repeat(8,10rem);
+    grid-template-rows: 22rem 10rem repeat(3,22rem);
     gap: 2rem;
     margin-top: 2.3rem;
 }
@@ -70,5 +70,4 @@ html {
     padding: 2rem;
     text-transform: uppercase;
     text-align: center;
-  
 }
