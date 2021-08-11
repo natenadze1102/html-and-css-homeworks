@@ -53,7 +53,6 @@ body {
     transform: translate(0rem,.3rem);
 }
 
-
 article:last-of-type > p:nth-of-type(2){
     line-height: 1.7;
 }
@@ -96,7 +95,6 @@ code {
     font-weight: normal;
     line-height: 1.72;
     transform: translate(-4.55rem,-0.4rem);
-   
 }
 
 .box {
@@ -126,7 +124,6 @@ code {
     padding: 2.45rem 0 4rem 0;
     gap: 6rem;
     position: relative;
- 
     bottom: .5rem;
     left: .2rem;
 }
