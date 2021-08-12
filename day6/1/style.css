@@ -5,7 +5,7 @@
 }
 
 html {
-    font-size: 10px
+    font-size: 10px;
 }
 
 .grid-container {
@@ -14,12 +14,10 @@ html {
     display: grid;
     grid-template-columns: 6rem 21rem 20rem auto;
     grid-template-rows: 24.3rem 14.4rem auto 3rem;
-   
 }
 
 .item {
     border: 5px solid black;
-    text-align: center;
     font-size: 5rem;
 }
 
