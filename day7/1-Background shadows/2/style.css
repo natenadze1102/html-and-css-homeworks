@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
+   /*  overflow: hidden; */
 }
 
 html {
+    font-family: 'Lato', sans-serif;
     font-size: 10px;
+ /*    overflow: hidden; */
 }
 
 html,
@@ -22,8 +26,8 @@ section {
 .cover-image {
     width: 1925px;
     position: relative/* others divs inherits its width when thems ridth is 100% */;
-    /* height: 1357.55px; */
-    
+ 
+    max-height: 1079.55px;
 }
 
 .cover-image > img {
@@ -67,4 +71,21 @@ section {
     left: -6.5rem;
     z-index: 4;
    
+}
+
+.title {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,20%);
+    font-size: 14rem;
+
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    color: #fff;
+    z-index: 5;
+}
+
+h1 {
+    font-weight: bold;
 }
