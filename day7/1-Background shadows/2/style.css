@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+html {
+    font-size: 10px;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    position: relative;
+     
+}
+
+.cover-image {
+    width: 1925px;
+    position: relative/* others divs inherits its width when thems ridth is 100% */;
+    /* height: 1357.55px; */
+    
+}
+
+.cover-image > img {
+  
+/*     width: 100%; * ??? /
+  /*   height: 800px;
+    position: absolute;
+    object-fit: cover; */
+  
+ /*    transform: translateY(-28rem); */
+ position: relative;
+ top: -28rem;
+ z-index: 1;
+}
+
+
+.bg-blue {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: hsla(210, 73%, 58%, 0.27);
+    z-index: 2;
+}
+
+.bg-dark {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: hsla(0, 0%, 0%, 0.163);
+    z-index: 3;
+}
+
+.logo {
+    position: absolute;
+    height: 1438px;
+    top: -7.7rem;
+    left: -6.5rem;
+    z-index: 4;
+   
+}
