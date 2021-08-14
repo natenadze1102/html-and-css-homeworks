@@ -17,6 +17,7 @@ section {
 }
 
 .cover-image {
+    position: relative;
     width: 1925px;
     /* others divs inherits its width when thems ridth is 100% */;
     max-height: 1079.55px;
