@@ -8,13 +8,8 @@ html {
     font-size: 10px;
 }
 
-section {
-    position: relative;
-}
-
 .image {
   width: 1925px;
-  background-repeat: no-repeat;
   position: relative;
   height: 1120px;
 }
@@ -28,7 +23,7 @@ section {
 
 .bg-dark {
     position: absolute;
-    background: linear-gradient(rgba(7, 7, 7, 0.02),rgba(0, 0, 0, 0.644),rgba(0, 0, 0, 0.959));
+    background: linear-gradient(rgba(7, 7, 7, 0.02),rgba(0, 0, 0, 0.753),rgba(0, 0, 0, 0.959));
     width: 100%;
     height: 100%; 
     z-index: 2;
@@ -43,7 +38,6 @@ section {
 }
 
 .main-title {
-    /* background:url('./assets/Image\ 2.png') no-repeat; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,14 +45,12 @@ section {
     height: 100%;
     position: absolute;
     z-index: 100;
-
-  
 }
 
 .main-title > img {
     /* Extra property for brutality*/
-    /* filter: drop-shadow(0 0rem 1px black)
+   /*  filter: drop-shadow(0 0rem 1px black)
             drop-shadow(0 0rem 20px black)
-            drop-shadow(0 0rem 40px rgb(25, 238, 71)); */      
+            drop-shadow(0 0rem 40px rgb(25, 238, 71));    */
     margin-bottom: 15rem;
 }
