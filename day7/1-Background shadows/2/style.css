@@ -54,13 +54,14 @@ section {
     height: 100%;
     width: 100%;
     top: -7.7rem;
-    left: -6.5rem;
     z-index: 4;
     overflow: hidden;
 }
 
 
 .logo > img {
+    position: absolute;
+    left: -6.5rem;
     max-height: 1438px;
     
 }
