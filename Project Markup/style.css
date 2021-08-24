@@ -13,7 +13,7 @@ html {
 }
 
 body,html {
-    width: 192rem;
+    /* width: 192rem; */
 }
 
 ul {
@@ -150,42 +150,46 @@ header button:last-of-type {
 .features {
     display: flex;
     justify-content: center;
-    /* text-align: center; */
     gap: 3rem;
     flex-wrap: wrap;
+    margin-bottom: 10rem;
 }
 
 .features_container {
   max-width: 27rem;
   text-align: center;
- /*  padding: 2rem; */
+
 }
 
-.features_container p {
-  /*  line-height: 2; */
+fieldset {
+    border:1px solid #DBE7EF;
+}
+
+.features_container:nth-of-type(3){
+    margin-top: -.5rem;
 }
 
 .features_container p:first-of-type {
     font-size: 1.8rem;
     font-weight: bold;
-    padding: 1.98rem 3.59rem;
+    padding: 1.8rem 3.59rem .7rem 3.59rem;
 }
 
 .features_container p:last-of-type {
     font-size: 1.4rem;
     font-weight: normal;
     color: #A1B1BC;
-    padding: 0 4.5rem;
+    padding: 0 4rem 3.2rem 4rem;
+    line-height: 1.75;
 }
 
 .features_container--img {
     position: relative;
     padding: 2rem;
     display: inline-flex;
-    border: 1px solid #A1B1BC;
+    border: 1px solid #DBE7EF;
     border-radius: 50%;
     z-index: 3;
- 
 }
 
 .features_container--img:after{
@@ -197,9 +201,261 @@ header button:last-of-type {
     left: 4px;
     right: 4px;
     bottom: 4px;
-    border: 1px solid #A1B1BC;
+    border: 1px solid #DBE7EF;
     border-radius: 50%;
   }
-
-
 /*******************************Features*********************************/
+
+/*******************************About*********************************/
+.about {
+    display: flex;
+    background-color: #ecf0f14d;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding: 8.83rem 0 10.7rem 0;
+    gap: 3.1rem;
+}
+
+.about h2 {
+    font-size: 3.6rem;
+    font-weight: 300;
+}
+
+.about p {
+    font-size: 1.4rem;
+    line-height: 1.75;
+    color:#A1B1BC;
+}
+
+.about p:first-of-type {
+   margin: 1.2rem 0 2.2rem 0;
+}
+
+.about p:last-of-type {
+    margin-bottom: 2.65rem;
+}
+
+.about button {
+    text-transform: uppercase;
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: #34495E;
+    border: 1px solid #DBE7EF;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 1.47rem 4rem 1.3rem 4.01rem;
+    position: relative;
+    right: 2px;
+}
+
+.about__container {
+    width:57rem;
+}
+
+.about__container__img {
+    max-width: 54.3rem;
+    position: relative;
+    left: 3.3rem;
+    top: 1rem;
+}
+/*******************************About*********************************/
+
+/*******************************Capabilities*********************************/
+.capabilities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222533;
+    padding: 8.69rem 0 11.8rem 0;
+}
+
+.capabilities h2 {
+    font-size: 3.6rem;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: .84rem;
+}
+
+.capabilities p {
+    color: #fff;
+    line-height: 1.7;
+}
+
+.capabilities__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4.5rem;
+}
+
+.capabilities__container__text {
+    text-align: center;
+}
+
+.capabilities__container__text > p {
+    text-align: center;
+    font-size: 1.4rem;
+    max-width: 63.07rem;
+}
+
+.capabilities__container span {
+    display: inline-flex;
+    background-color: #ECF0F1;
+    border-radius: 50%;
+    font-size: 1.8rem;
+    padding: 3.97rem 3.57rem 4.08rem 3.47rem;
+    z-index: 10;
+}
+
+.capabilities__container span {
+    box-shadow:
+    0 0 0 40px hsl(0, 84%, 100%),
+    0 0 0 15px hsl(0, 0%, 90%),
+    0 0 0 48px #1ABC9C;
+    margin: 10.4rem 10rem 7rem 10rem;
+}
+
+.capabilities__container .circle:nth-of-type(2) span {
+    box-shadow:
+    0 0 0 40px hsl(0, 84%, 100%),
+    0 0 0 15px hsl(0, 0%, 90%),
+    0 0 0 48px #21C2F8;
+}
+
+.capabilities__container .circle:first-of-type { 
+    right: .8rem;
+}
+
+.capabilities__container .circle:nth-of-type(2) { 
+    right: .2rem;
+}
+
+.capabilities__container .circle:nth-of-type(3) { 
+    left: .2rem;
+}
+
+.capabilities__container .circle:nth-of-type(4) { 
+    left: .7rem;
+}
+
+.circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;  
+    max-width: 13%;
+}
+
+
+.circle p {
+   text-align: center;
+}
+
+.circle p:first-of-type {
+    font-size: 1.8rem;
+  
+}
+
+.circle p:last-of-type {
+    font-size: 1.4rem;
+    margin-top: 1.1rem;
+}
+
+.circle-dark {
+    background-color: #2C3E50!important;
+}
+
+.text-white {
+    color: #fff;
+}
+
+/* .circle:before {
+    content: " ";
+    position: absolute;
+    z-index: 1;
+    top: 1px;
+    left: 1px;
+    right: 1px;
+    bottom: 1px;
+    border: 5px solid #1ABC9C;
+    border-radius: 50%;
+}
+
+.circle::after {
+    content: " ";
+    position: absolute;
+    z-index: 1;
+    top: -30px;
+    left: -30px;
+    right: -30px;
+    bottom: -30px;
+    border: 30px solid #fff;
+    border-radius: 50%;
+} */
+/*******************************Capabilities*********************************/
+
+/*******************************Services*********************************/
+.services {
+    margin-top: 8.7rem;
+}
+.services__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 63.7rem;
+    text-align: center;
+}
+
+.text-container > h2 {
+    font-size: 3.6rem;
+    font-weight: 300;
+    margin-bottom: 1.1rem;
+}
+
+.text-container > p {
+    font-size: 1.4rem;
+    color: #A1B1BC;
+    line-height: 1.7;
+}
+
+.icon-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 25%;
+}
+
+.icon-container img {
+    margin-bottom: 4.14rem;
+}
+
+.icon-container h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.68rem
+}
+
+.icon-container p {
+    color: #A1B1BC;
+    font-size: 1.4rem;
+    max-width: 33.958rem;
+}
+/*******************************Services*********************************/
