@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -59,7 +64,7 @@ a {
 }
 
 .bg-dark-blue {
-    background-color: #2C3E50;
+    background-color: #2C3E50!important;
 }
 
 .bg-dark-blue-2 {
@@ -70,6 +75,7 @@ a {
     background-color: #1ABC9C;
 }
 /* COLORS */
+
 
 /*******************************header*********************************/
 header h1 {
@@ -659,7 +665,7 @@ fieldset {
     bottom: 3px;
 }
 
-.shape-container {
+.testimonials .shape-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -889,11 +895,6 @@ fieldset {
     padding: 1.55rem 9.57rem 1.55rem 9.53rem ;
 }
 
-.padding-bigger {
-    /* padding: 5rem 0; */
-}
-
-
 .table__container__item--btn {
     display: inline-flex;
     font-size: 1.5rem;
@@ -961,7 +962,7 @@ fieldset {
 }
 
 
-.advertisement ::after{
+.advertisement__container::after{
     content: '';
     position: absolute;
     height: 92%;
@@ -1010,3 +1011,306 @@ fieldset {
     margin-bottom: .5rem;
 }
 /*******************************Pricing Tables*********************************/
+
+/*******************************Clear and Clean Layouts*********************************/
+.clear-layouts {
+    padding: 0 33.1rem 0 37.5rem;
+    margin-top: 20rem;
+}
+
+.clear-layouts__container {
+    display: flex;
+    gap: 5.5rem;
+}
+
+.clear-layouts__container:first-of-type {
+    margin-bottom: 7.8rem;
+}
+
+.clear-layouts h2 {
+    font-size: 3.6rem;
+    font-weight: 300;
+    margin-top: 5rem;
+}
+
+.four__box__container {
+    max-width: 61.468rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 6rem;
+}
+
+.clear-layouts .clear-layouts__container:nth-of-type(2)  {
+   gap: 0rem;
+}
+
+.clear-layouts .clear-layouts__container:nth-of-type(2) .four__box__container h2 {
+    margin-top: 0;
+    margin-bottom: 5.1rem;
+}
+
+.clear-layouts .clear-layouts__container:nth-of-type(2) .four__box__container {
+    margin-top: 0;
+    margin-bottom: 5rem;
+    position: relative;
+    right: .1rem;
+    top: .2rem;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 49%;
+    margin-top: .5rem;
+}
+
+.box-container:nth-child(4),
+.box-container:nth-child(5) {
+    position: relative;
+    top: 1.7rem; 
+}
+
+.box-container h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: -0.5rem;
+}
+
+.box-container p {
+    font-size: 1.4rem;
+    text-align: left;
+    max-width: 80%;
+    color: #A1B1BC;
+    line-height: 1.75;
+    position: relative;
+    top: .7rem;
+}
+
+.box-container a {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:#1ABC9C;
+    position: relative;
+    top: 1.3rem;
+}
+
+.box-shape__contaiener {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.quadrangle {
+    order: 2;
+}
+
+#bottom-box--first {
+    margin-bottom: 2rem;
+}
+
+#bottom-box--first,
+#bottom-box--second {
+    position: relative;
+    bottom: 1.8rem;
+}
+
+.second-a {
+    position: relative;
+    top: 1.4rem!important;
+}
+
+/*******************************Clear and Clean Layouts*********************************/
+
+/*******************************Breaking News*********************************/
+.breaking-news {
+    padding: 0 33.1rem 0 37.5rem;
+    margin-top: 18rem;
+    background-color: #fff;
+}
+
+.breaking-news .text {
+    position: relative;
+    right: 1.6rem;
+}
+
+.breaking-news .text p {
+    position: relative;
+    bottom: .6rem;
+}
+
+.breaking-news__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.articles__container {
+    display: flex;
+    gap: 2.4rem;
+    flex-wrap: wrap;
+    /* max-width: 118.5rem; */
+}
+
+.article-block__container {
+    display: flex;
+    /* max-width: 33.33%; */
+    max-width: 31%;
+    gap: 1.9rem;
+    margin-top: -.8rem;
+}
+
+.article-block__container--wider {
+   /*  max-width: 33.5%; */
+}
+
+.article-block__container--taller {
+    position: relative;
+    top: 2.6rem;
+}
+
+.article-block__container__shape {
+    width: 17rem;
+    height: 20rem;
+    background-color: #CCCCCC;
+}
+#text__block--first {
+    max-width: 40%;
+    margin-bottom: 1rem;
+}
+
+.text__block h4 {
+    color: #2C3E50;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    line-height: 1.46;
+    position: relative;
+    bottom: .5rem;
+}
+.text__block h4:nth-last-of-type(3)  {
+    max-width: 90%;
+}
+
+
+.text__block span {
+    font-size: 1.4rem;
+    color: #A1B1BC;
+    line-height: 2;
+}
+
+.icon {
+    font-size: 1.5rem;
+    color: #A1B1BC;
+}
+
+.icon-gapped-more {
+    gap: 1.5rem!important;
+}
+
+.margin-more {
+    position: relative;
+    bottom:.3rem;
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+code {
+    font-family: 'Lato', sans-serif;
+}
+
+/*******************************Breaking News*********************************/
+
+/*******************************Contact*********************************/
+.contact {
+    padding: 5rem 38.3rem 5rem 37.14rem ;
+}
+
+.contact__container {
+    background-color: #222533;
+    display: flex;
+}
+
+.contact__form,
+.contact__team {
+    max-width: 50%;
+}
+
+.contact p,
+.contact h2 {
+    color: #fff;
+}
+
+.contact h2 {
+    font-style: 3.6rem;
+    margin-bottom: 3.77rem;
+}
+
+.icons-container {
+    display: flex;
+    color: #fff;
+    gap: 3rem;
+}
+
+
+
+
+
+
+
+/* Add padding to containers */
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 16px;
+  }
+
+  input, select, textarea{
+    color: #fff;
+}
+
+::placeholder {
+    color: #fff;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=email], input[type=number] {
+    width: 100%;
+    padding: 1.5rem;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 1px solid #636372;
+    background: transparent;
+  }
+  
+  input[type=text]:focus, input[type=email]:focus, input[type=number]:focus {
+    outline: none;
+  }
+  
+ textarea {
+     background-color: transparent;
+     resize: none;
+ }
+  
+  /* Set a style for the submit button */
+  .sendbtn{
+    background-color: #1ABC9C;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .sendbtn:hover {
+    opacity: 1;
+  }
+  
+
+/*******************************Contact*********************************/
