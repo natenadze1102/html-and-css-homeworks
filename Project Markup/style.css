@@ -1943,6 +1943,7 @@ textarea {
 
   .table__container {
     grid-template-columns: repeat( auto-fit, minmax(200px, 293px) );  
+    grid-template-rows: repeat( auto-fit, minmax(39px, 39px) );
     width: unset;
     height: unset;
   }
@@ -2012,24 +2013,14 @@ textarea {
     max-width:57rem;
   }
 
-  .share__container {
+.share__container {
     flex-wrap: wrap;
     gap: 2rem;
     padding: 2rem 0;
     margin:0;
 }
 
-.section__footer__container {
-    
-    gap: 5rem;
-}
-  
-}
-
-
-
-/* @media screen and (max-width: 1023px) {
-    .navigation ul {
-      gap: 1.5rem
+    .section__footer__container {
+        gap: 5rem;
     }
-} */
+}
