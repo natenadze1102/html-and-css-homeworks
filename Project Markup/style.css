@@ -1909,6 +1909,10 @@ textarea {
     padding: 3rem;
   }
 
+  .btn-block a {
+      display: inline-flex;
+  }
+
   .new_features {
       padding:0!important;
   }
