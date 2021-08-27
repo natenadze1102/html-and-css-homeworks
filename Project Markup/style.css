@@ -1991,9 +1991,7 @@ textarea {
       padding:unset;
   }
 
-  .articles__container {
-      justify-content: center;
-  }
+ 
 
   .article-block__container {
     max-width: 80%!important
