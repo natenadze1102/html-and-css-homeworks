@@ -39,6 +39,10 @@ a {
     background-color: #ECF0F1;
 }
 
+.bg-grey-transp {
+    background-color: #ecf0f142;
+}
+
 .bg-grey-darker {
     background-color: #707070;
 }
@@ -161,7 +165,10 @@ header button:last-of-type {
     align-items: center;
     margin-top: 2.1rem;
     margin-bottom: 11.7rem;
-   /*  gap: 10rem; */
+
+    margin-bottom: 9.6rem;
+    border-bottom: 3px solid #70707013;
+    padding-bottom: 1.8rem;
 }
 
 .navigation .logo {
@@ -188,6 +195,10 @@ header button:last-of-type {
     color: #A1B1BC;
     gap: 4.63rem;
     font-size: 1.5rem;
+}
+
+.navigation ul a {
+    color: inherit; 
 }
 /*******************************Navigation*********************************/
 
@@ -541,6 +552,9 @@ fieldset {
     font-family: 'Lato', sans-serif;
 }
 
+.cats button {
+    cursor: pointer;
+}
 .text {
     display: flex;
     flex-direction: column;
@@ -590,6 +604,12 @@ fieldset {
     align-items: center;
     justify-content: center;
 }
+
+.hover-div p:first-child {
+   color: #2C3E50;
+}
+
+
 
 #eights {
     position: relative;
@@ -680,6 +700,11 @@ fieldset {
     border-radius: 50%;
     margin-top: 3.4rem;
     margin-bottom: 2rem;
+}
+
+.shape p :first-of-type {
+    position: relative;
+    top: -2px;
 }
 
 .shape-container p:first-of-type {
@@ -1105,6 +1130,10 @@ fieldset {
     order: 2;
 }
 
+.quadrangle img {
+    transform: translateY(1.1rem);
+}
+
 #bottom-box--first {
     margin-bottom: 2rem;
 }
@@ -1229,10 +1258,15 @@ code {
     background-color: #222533;
 }
 .contact__container { 
+  /*   display: flex;
+    gap: 2rem;
+    padding: 11.5rem 29.3rem 10rem 37.5rem;
+    margin-top: 10rem; */
+
     display: flex;
     gap: 2rem;
-    padding: 11.5rem 29.3rem 5rem 37.5rem;
-    margin-top: 10rem;
+    padding: 8.8rem 29.3rem 10rem 37.5rem;
+    margin-top: 12.7rem;
 }
 
 .contact__form p {
@@ -1263,12 +1297,16 @@ code {
 
 .icons-container {
     display: flex;
-    color: #fff;
+   
     gap: 2.6rem;
     font-size: 2.58rem;
     position: relative;
     top: .48rem;
     left: .35rem;
+}
+
+.icons-container i {
+    color: #fff;
 }
 
 .icons-container > div:first-of-type{
@@ -1428,19 +1466,22 @@ textarea {
     left: .4rem;
     bottom: -.5rem;
 }
+
+.twitter i {
+    color: #16B5D8;
+}
 /*******************************Contact*********************************/
 
 /*******************************Share*********************************/
 .share {
    /*  padding: 11.5rem 29.3rem 5rem 37.5rem; */
-    
-    background: #222533;
+    background: #252838;
 }
 
 .share__container {
     display: flex;
     justify-content: center;
-    padding:8.2rem;
+    padding:3.2rem;
     gap: 7.5rem;
     margin-left: .5rem;
 }
@@ -1458,3 +1499,304 @@ textarea {
     filter: none;
 }
 /*******************************Share*********************************/
+
+/*******************************Resume*********************************/
+.resume {
+    background-color: #1A1C27;
+    padding-top: 9rem;
+    padding-bottom: 10rem;
+}
+
+.resume__container {
+    /* padding: 8.95rem 37.5rem 11.25rem 37.5rem; */
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.resume__container h2 {
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-left: 2.6rem;
+    margin-bottom: 2.6rem;
+}
+
+.resume__container h2::after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 1.8rem;
+    left: .2rem;
+    top: .8rem;
+    background-color: #1ABC9C;
+}
+
+.resume__container:nth-last-of-type() h2::after {
+    left: 1rem;
+}
+
+.resume__container .flickr__widget h2::after {
+    left: -2.2rem;
+}
+
+.resume__container p {
+    color: #A1B1BC;
+    font-size: 1.4rem;
+    line-height: 1.72;
+}
+
+#resume__container__second-parag {
+    margin-top: 2.4rem;
+    margin-bottom: 2.3rem;
+}
+
+.resume__container__about__first-p {
+    margin-bottom: 2rem;
+}
+
+.equal-size {
+    max-width: 37rem;
+}
+
+.resume__container__about .logo {
+    position: relative;
+}
+
+.resume__container__about img {
+    position: absolute;
+    top: 2.9rem;
+    left: 18.1rem;
+    width: 1.8rem;
+}
+
+.resume__container__logo  {
+   position: relative;
+}
+
+.resume__container__logo p {
+    font-size: 5.949rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.resume__container__logo p span {
+    color: #1ABC9C;
+    font-weight: 900;
+}
+
+.resume__container__about {
+    position: relative;
+}
+
+.resume__container__about h2 {
+    font-weight: 900;
+    margin-left: 2.3rem
+}
+
+.resume__container__about h2 span {
+    font-weight: 300;
+}
+
+.resume__container__about input {
+    background: transparent;
+    border-radius: 3px;
+    padding: 2rem 0;
+    border: none;
+    background-color: #222533;
+    width: 100%;
+    max-width: 37rem;
+}
+
+.resume__container__about input::placeholder {
+    color: #A1B1BC;
+    padding-left: 3rem;
+    letter-spacing: .3px;
+    font-size: 1.34rem;
+    transform: translateY(2px);
+}
+
+.resume__container__input_container {
+    position: relative;
+}
+
+.search__btn {
+    background: #1ABC9C;
+    border: none;
+    padding:.8rem 1.4rem;
+    font-size: 2.5rem;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: .45rem;
+}
+
+.resume__container__featured {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.resume__container__featured h2 span{
+    font-weight: 300;
+}
+
+.resume__container__featured p {
+    font-weight: 700;
+    margin-top: -1rem;
+}
+
+.resume__container__shape__container {
+    display: flex;
+}
+
+.flex-gap {
+    gap: 2rem;
+}
+
+.resume__container__shape__container p {
+    font-size: 1.6rem;
+}
+
+.resume__container__shape__container span {
+    display: block;
+    width: 9rem;
+    height: 9rem;
+    background-color: #fff;
+}
+
+.resume__container__shape__container__different {
+    position: relative;
+}
+
+.resume__container__shape__container__different p {
+    color: #fff
+}
+
+.resume__container__shape__container__different span {
+    background: #1ABC9C;
+}
+
+.resume__container__shape__container__different::after {
+    position: absolute;
+    content: '+';
+    color: #fff;
+    font-size: 7.2rem;
+    font-weight: 300;
+    bottom: -1px;
+    left:2.5rem;
+}
+
+.bunch-squares {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+
+.bunch-squares a {
+   font-size: 1.6rem;
+   font-weight: 700;
+   color: #1ABC9C;
+   margin-top: 1.7rem;
+}
+
+.resume__container__flickr__shape__container:nth-of-type(6) span {
+   background: #f6f7f8;
+   box-shadow: 0px 0px 0px 2px #fff;
+}
+
+.resume__container__flickr__shape__container span {
+    display: block;
+    width: 8.5rem;
+    height: 8.5rem;
+    background-color: #fff;
+}
+
+.flickr__widget h2 {
+    position: relative;
+}
+
+.flickr__widget h2 {
+    font-weight: 900;
+    margin-bottom: 5.5rem;
+    margin-left: 2.3rem;
+    position: relative;
+}
+
+.flickr__widget h2 span {
+    font-weight: 300;
+}
+/*******************************Resume*********************************/
+
+/*******************************Footer*********************************/
+.section__footer {
+    background-color: #222533;
+}
+
+.section__footer__logo-container img {
+    width: 1.8rem;
+    margin-right: 1.95rem;
+    position: relative;
+    top: 3px;
+}
+
+.section__footer p {
+    font-size: 1.5rem;
+    color: #A1B1BC;
+}
+
+.section__footer a {
+    font-size: 1.4rem;
+    color: #A1B1BC;
+}
+
+.section__footer span {
+    color: #1ABC9C;
+}
+
+.section__footer__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 19rem;
+    padding: 2.65rem 0;
+}
+
+.section__footer__container__copyright {
+    display: flex;
+    position: relative;
+    top: 1px;
+}
+
+.footer__navigation ul {
+    display: flex;
+    gap: 3rem;
+}
+
+.footer__navigation ul li:nth-of-type(2) {
+    position: relative;
+    color: #1ABC9C;
+}
+
+.footer__navigation ul li:nth-of-type(2) a {
+   color: inherit;
+}
+
+.footer__navigation ul li:nth-of-type(2)::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    max-width: 9.2rem;
+    height: 2px;
+    background-color: #1ABC9C;
+    bottom: 4.5rem;
+}
+
+.footer__navigation a {
+    color: #A1B1BC;
+    display: flex;
+}
+/*******************************Footer*********************************/
+
