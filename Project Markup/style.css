@@ -1834,6 +1834,7 @@ textarea {
   }
   .header_container {
     max-width: 105.2rem;
+    padding: 4rem;
   }
 
   header {
