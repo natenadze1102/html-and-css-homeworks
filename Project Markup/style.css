@@ -1208,10 +1208,6 @@ fieldset {
     margin-top: -.8rem;
 }
 
-.article-block__container--wider {
-   /*  max-width: 33.5%; */
-}
-
 .article-block__container--taller {
     position: relative;
     top: 2.6rem;
@@ -1850,10 +1846,6 @@ textarea {
     font-size: 3.569rem;
     position: static;
     margin-right: 0;
-  }
-
-  .about {
-
   }
 
   .about__container {
