@@ -835,7 +835,7 @@ fieldset {
     left: 50%;
     transform: translate(-50%,-50%);
     width: 1.7rem;
-    
+    filter: brightness(0) invert(1);
 }
 
 .column-first, .column-second, .column-third {
